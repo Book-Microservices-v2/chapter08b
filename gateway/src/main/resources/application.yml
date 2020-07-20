@@ -34,12 +34,12 @@ spring:
               - "GET"
               - "POST"
               - "OPTIONS"
-#      default-filters:
-#        - name: Retry
-#          args:
-#            retries: 3
-#            methods: GET,POST
+      default-filters:
+        - name: Retry
+          args:
+            retries: 3
+            methods: GET,POST
 # Uncomment the configuration below if you want to enable route matching logs
-logging:
-  level:
-    org.springframework.cloud.gateway.handler.predicate: trace
+#logging:
+#  level:
+#    org.springframework.cloud.gateway.handler.predicate: trace
