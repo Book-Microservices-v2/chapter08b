@@ -67,9 +67,7 @@ Requirements:
 > 
 > In the [final version of our code](https://github.com/Book-Microservices-v2/chapter08d), we use Docker to start our complete system easily. However, it's not yet introduced at this point in the book, so we're starting all these components manually.
 
-Once the backend and the fronted are started, you can navigate to `http://localhost:3000` in your browser and start resolving multiplication challenges. From the user's perspective, there are no differences between this version and the one we completed in Chapter 7. We do know that all requests are now going through the Gateway service, and we gained some new advantages as detailed in the book.
-
-![Application - Screenshot](resources/app-chapter7-after10.png)
+Once the backend and the fronted are started, you can navigate to `http://localhost:3000` in your browser and start resolving multiplication challenges.
 
 ## More advanced scenarios
 
