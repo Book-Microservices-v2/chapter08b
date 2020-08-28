@@ -32,6 +32,7 @@ Requirements:
 * Node.js v13.10+
 * npm 6.13.7+
 * RabbitMQ 3.8.3+
+* Consul 1.7.2+
 
 1. You need a RabbitMQ server running. Run the server according to the instructions for your OS, for example:
     ```bash
